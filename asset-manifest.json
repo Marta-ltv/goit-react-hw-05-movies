@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/https://marta-ltv.github.io/goit-react-hw-05-movies/static/css/main.a08db137.css",
+    "main.js": "/https://marta-ltv.github.io/goit-react-hw-05-movies/static/js/main.d3139169.js",
+    "index.html": "/https://marta-ltv.github.io/goit-react-hw-05-movies/index.html",
+    "main.a08db137.css.map": "/https://marta-ltv.github.io/goit-react-hw-05-movies/static/css/main.a08db137.css.map",
+    "main.d3139169.js.map": "/https://marta-ltv.github.io/goit-react-hw-05-movies/static/js/main.d3139169.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a08db137.css",
+    "static/js/main.d3139169.js"
+  ]
+}
