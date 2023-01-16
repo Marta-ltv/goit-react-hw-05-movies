@@ -22,15 +22,17 @@ const Cast = () => {
       {movie.map(({ name, profile_path, character }) => {
         return (
           <li key={name}>
-      <Img
-        src={
-          profile_path ? `https://image.tmdb.org/t/p/w500/${profile_path}` : 'https://upload.wikimedia.org/wikipedia/commons/6/65/No-Image-Placeholder.svg'
-        }
-        alt=""
-      />
-      <p>{name}</p>
-      <p>Character: {character}</p>
-    </li>
+            <Img
+              src={
+                profile_path
+                  ? `https://image.tmdb.org/t/p/w500/${profile_path}`
+                  : 'https://upload.wikimedia.org/wikipedia/commons/6/65/No-Image-Placeholder.svg'
+              }
+              alt=""
+            />
+            <p>{name}</p>
+            <p>Character: {character}</p>
+          </li>
         );
       })}
     </ul>

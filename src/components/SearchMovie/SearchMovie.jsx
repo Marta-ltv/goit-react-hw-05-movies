@@ -1,5 +1,4 @@
 import { useState } from 'react';
-
 import { Input } from './SearchMovie.styled';
 
 export const SearchMovie = ({ onSubmit }) => {
@@ -24,8 +23,6 @@ export const SearchMovie = ({ onSubmit }) => {
         placeholder="Search movies..."
         type="text"
         name="name"
-        title="Name may contain only letters, apostrophe, dash and spaces. For example Adrian, Jacob Mercer, Charles de Batz de Castelmore d'Artagnan"
-        required
         value={search}
         onChange={handleChange}
       />

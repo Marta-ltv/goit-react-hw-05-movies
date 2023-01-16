@@ -33,7 +33,7 @@ const Movies = () => {
         {movies.length > 0 &&
           movies.map(({ title, id }) => (
         <li key={title}>
-      <Link to={`/movies/${id}`} state={{ from: location }}>
+        <Link to={`/movies/${id}`} state={{ from: location }}>
         {title}
       </Link>
     </li>
